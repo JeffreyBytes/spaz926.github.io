@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Uvolabs</title>
-    <link>uvolabs.me/tags/</link>
+    <link>http://uvolabs.me/tags/</link>
     <description>Recent content in Tags on Uvolabs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="uvolabs.me/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://uvolabs.me/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

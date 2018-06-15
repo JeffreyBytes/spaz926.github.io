@@ -3,32 +3,32 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>uvolabs.me/posts/first-post/</loc>
+    <loc>http://uvolabs.me/posts/first-post/</loc>
     <lastmod>2018-06-15T02:19:08-05:00</lastmod>
   </url>
   
   <url>
-    <loc>uvolabs.me/about/</loc>
+    <loc>http://uvolabs.me/about/</loc>
   </url>
   
   <url>
-    <loc>uvolabs.me/categories/</loc>
+    <loc>http://uvolabs.me/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>uvolabs.me/posts/</loc>
+    <loc>http://uvolabs.me/posts/</loc>
     <lastmod>2018-06-15T02:19:08-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>uvolabs.me/tags/</loc>
+    <loc>http://uvolabs.me/tags/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>uvolabs.me/</loc>
+    <loc>http://uvolabs.me/</loc>
     <lastmod>2018-06-15T02:19:08-05:00</lastmod>
     <priority>0</priority>
   </url>
