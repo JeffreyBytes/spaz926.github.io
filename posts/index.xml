@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Uvolabs</title>
+    <link>uvolabs.me/posts/</link>
+    <description>Recent content in Posts on Uvolabs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 15 Jun 2018 02:19:08 -0500</lastBuildDate>
+    
+	<atom:link href="uvolabs.me/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>My First Post</title>
+      <link>uvolabs.me/posts/first-post/</link>
+      <pubDate>Fri, 15 Jun 2018 02:19:08 -0500</pubDate>
+      
+      <guid>uvolabs.me/posts/first-post/</guid>
+      <description>This is my first blog post. I will update this site with links to projects I work on.
+A little about me has been posted to the About page on this site.</description>
+    </item>
+    
+  </channel>
+</rss>
