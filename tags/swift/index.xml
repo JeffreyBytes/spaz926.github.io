@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Swift on Uvolabs</title>
-    <link>http://uvolabs.me/tags/swift/</link>
+    <link>https://uvolabs.me/tags/swift/</link>
     <description>Recent content in Swift on Uvolabs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 27 Feb 2019 21:43:00 -0600</lastBuildDate>
     
-	<atom:link href="http://uvolabs.me/tags/swift/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://uvolabs.me/tags/swift/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>100 Days of Swift: Day 1</title>
-      <link>http://uvolabs.me/posts/100-days/day-1/</link>
+      <link>https://uvolabs.me/posts/100-days/day-1/</link>
       <pubDate>Wed, 27 Feb 2019 21:43:00 -0600</pubDate>
       
-      <guid>http://uvolabs.me/posts/100-days/day-1/</guid>
+      <guid>https://uvolabs.me/posts/100-days/day-1/</guid>
       <description>Day 1 of The 100 Days of Swift Challenge Complete Gotta say I&amp;rsquo;m happily surprised by the amount of information I learned today.
 I studied my knowledge of some of the core Swift fundamentals on Hacking With Swift, and learned some new stuff about CoreML in iOS 12.
 Gonna keep on trucking and focus at least one hour a day for the next 99 days.</description>
