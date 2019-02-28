@@ -1,25 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Uvolabs</title>
-    <link>http://uvolabs.me/</link>
-    <description>Recent content on Uvolabs</description>
+    <title>Swift on Uvolabs</title>
+    <link>http://uvolabs.me/categories/swift/</link>
+    <description>Recent content in Swift on Uvolabs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 27 Feb 2019 22:01:39 -0600</lastBuildDate>
+    <lastBuildDate>Wed, 27 Feb 2019 21:43:00 -0600</lastBuildDate>
     
-	<atom:link href="http://uvolabs.me/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://uvolabs.me/categories/swift/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>About</title>
-      <link>http://uvolabs.me/about/</link>
-      <pubDate>Wed, 27 Feb 2019 22:01:39 -0600</pubDate>
-      
-      <guid>http://uvolabs.me/about/</guid>
-      <description>Uvolabs is the brainchild of Jeffrey Carpenter.
-Jeffrey is a computer science major. He is currently learning Swift for iOS and macOS software development.</description>
-    </item>
     
     <item>
       <title>100 Days of Swift: Day 1</title>

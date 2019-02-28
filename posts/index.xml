@@ -6,19 +6,20 @@
     <description>Recent content in Posts on Uvolabs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 15 Jun 2018 02:19:08 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 27 Feb 2019 21:43:00 -0600</lastBuildDate>
     
 	<atom:link href="http://uvolabs.me/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>My First Post</title>
-      <link>http://uvolabs.me/posts/first-post/</link>
-      <pubDate>Fri, 15 Jun 2018 02:19:08 -0500</pubDate>
+      <title>100 Days of Swift: Day 1</title>
+      <link>http://uvolabs.me/posts/100-days/day-1/</link>
+      <pubDate>Wed, 27 Feb 2019 21:43:00 -0600</pubDate>
       
-      <guid>http://uvolabs.me/posts/first-post/</guid>
-      <description>This is my first blog post. I will update this site with links to projects I work on.
-A little about me has been posted to the About page on this site.</description>
+      <guid>http://uvolabs.me/posts/100-days/day-1/</guid>
+      <description>Day 1 of The 100 Days of Swift Challenge Complete Gotta say I&amp;rsquo;m happily surprised by the amount of information I learned today.
+I studied my knowledge of some of the core Swift fundamentals on Hacking With Swift, and learned some new stuff about CoreML in iOS 12.
+Gonna keep on trucking and focus at least one hour a day for the next 99 days.</description>
     </item>
     
   </channel>
