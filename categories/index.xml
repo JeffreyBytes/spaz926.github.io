@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Uvolabs</title>
-    <link>http://spaz926.github.io/categories/</link>
+    <link>http://uvolabs.me/categories/</link>
     <description>Recent content in Categories on Uvolabs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 27 Feb 2019 21:43:00 -0600</lastBuildDate>
     
-	<atom:link href="http://spaz926.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://uvolabs.me/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>100 Days of Swift</title>
-      <link>http://spaz926.github.io/categories/100-days-of-swift/</link>
+      <link>http://uvolabs.me/categories/100-days-of-swift/</link>
       <pubDate>Wed, 27 Feb 2019 21:43:00 -0600</pubDate>
       
-      <guid>http://spaz926.github.io/categories/100-days-of-swift/</guid>
+      <guid>http://uvolabs.me/categories/100-days-of-swift/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Education</title>
-      <link>http://spaz926.github.io/categories/education/</link>
+      <link>http://uvolabs.me/categories/education/</link>
       <pubDate>Wed, 27 Feb 2019 21:43:00 -0600</pubDate>
       
-      <guid>http://spaz926.github.io/categories/education/</guid>
+      <guid>http://uvolabs.me/categories/education/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Swift</title>
-      <link>http://spaz926.github.io/categories/swift/</link>
+      <link>http://uvolabs.me/categories/swift/</link>
       <pubDate>Wed, 27 Feb 2019 21:43:00 -0600</pubDate>
       
-      <guid>http://spaz926.github.io/categories/swift/</guid>
+      <guid>http://uvolabs.me/categories/swift/</guid>
       <description></description>
     </item>
     
