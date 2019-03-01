@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Jeffrey Carpenter">
+    
+    <meta name="keywords" content="blog,developer,personal,swift">
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="100 Days of Swift: Day 2"/>
+<meta name="twitter:description" content="Day 2 of 100 Days of Swift. Beefing up on Closures."/>
+
+
+    <base href="https://uvolabs.me/posts/100-days/day-2/">
+    <title>
+  100 Days of Swift: Day 2 · Uvolabs
+</title>
+
+    <link rel="canonical" href="https://uvolabs.me/posts/100-days/day-2/">
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Merriweather:300,700|Source+Code+Pro:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css" integrity="sha256-oSrCnRYXvHG31SBifqP2PM1uje7SJUyX0nTwO2RJV54=" crossorigin="anonymous" />
+
+    
+      
+      
+      <link rel="stylesheet" href="/css/coder.min.8881182b3ec36ffd9c735306f7e16ce9b1129ebc650e069e7c4114827e9d9b23.css" integrity="sha256-iIEYKz7Db/2cc1MG9&#43;Fs6bESnrxlDgaefEEUgn6dmyM=" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+
+    
+
+    <link rel="icon" type="image/png" href="https://uvolabs.me/img/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://uvolabs.me/img/favicon-16x16.png" sizes="16x16">
+
+    
+
+    <meta name="generator" content="Hugo 0.54.0" />
+  </head>
+
+  <body class=" ">
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="https://uvolabs.me">
+      Uvolabs
+    </a>
+    <input type="checkbox" id="menu-toggle" />
+    <label class="menu-button float-right" for="menu-toggle"><i class="fas fa-bars"></i></label>
+    <ul class="navigation-list">
+      
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="/posts/">Blog</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="/about/">About</a>
+          </li>
+        
+      
+      
+    </ul>
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">100 Days of Swift: Day 2</h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fas fa-calendar"></i>
+              <time datetime='2019-02-28T17:16:16-06:00'>
+                February 28, 2019
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fas fa-clock"></i>
+              3 minutes read
+            </span>
+          </div>
+          <div class="categories">
+  <i class="fas fa-folder"></i>
+    <a href="/categories/100-days-of-swift/">100 Days of Swift</a>
+      <span class="separator">•</span>
+    <a href="/categories/swift/">Swift</a>
+      <span class="separator">•</span>
+    <a href="/categories/education/">Education</a></div>
+
+          <div class="tags">
+  <i class="fas fa-tag"></i>
+    <a href="/tags/swift/">swift</a>
+      <span class="separator">•</span>
+    <a href="/tags/education/">education</a></div>
+
+        </div>
+      </header>
+
+      <div>
+        
+
+<p><strong>Day 2 of 100</strong>:
+Started beefing up my knowledge on closures. Have always found this subject to be fairly bloated and nonintuitive, but I&rsquo;m sure with enough practice it&rsquo;ll become second nature.</p>
+
+<h4 id="closures-as-parameters">Closures as Parameters</h4>
+
+<p>Can&rsquo;t say I&rsquo;m too fond of the idea of using <code>() -&gt; Void</code> in my code. It looks very&hellip; nonSwifty. You&rsquo;d think there would be a better syntax when your closure has no parameters or return values.</p>
+
+<p>When the closure accepts a parameter and returns a value the syntax makes much more sense to me, but stil feels less Swifty than the rest of the language.</p>
+
+<h4 id="trailing-closure-syntax">Trailing Closure Syntax</h4>
+
+<p>Now this is starting to click, and I can finally read some more advanced Swift code and understand what is going on.</p>
+
+<h5 id="shorthand-parameter-names">Shorthand Parameter Names</h5>
+
+<p>The usage of shorthand parameter names in closures (<code>$0</code>, <code>$1</code>, <code>$2</code>) reminds me a lot of writing shell scripts for bash, and I think I&rsquo;ll be using them often in my adventures with Swift.</p>
+
+<h4 id="capturing-values">Capturing Values</h4>
+
+<p>I hate to admit it, but this took me for a bit of a loop. I was having trouble wrapping my mind around the idea of capturing. Once the lightbulb turned on in my head, I felt stupid that something so simple took so long to understand.</p>
+
+<p>Basically if a closure uses a value defined outside of its scope it captures that value so it can use it.
+Below is the example from Hacking with Swift.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-swift" data-lang="swift"><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">travel</span>() -&gt; (String) -&gt; Void {
+	<span style="color:#66d9ef">var</span> counter = <span style="color:#ae81ff">1</span>
+	
+	<span style="color:#66d9ef">return</span> {
+		print(<span style="color:#e6db74">&#34;</span><span style="color:#e6db74">\(</span>counter<span style="color:#e6db74">)</span><span style="color:#e6db74">. I&#39;m going to </span><span style="color:#e6db74">\(</span>$0<span style="color:#e6db74">)</span><span style="color:#e6db74">.&#34;</span>)
+		counter <span style="color:#f92672">+=</span> <span style="color:#ae81ff">1</span>
+	}
+}</code></pre></div>
+<p>In the above example since <code>counter</code> is defined outside of the scope of the closure, the closure <em>captures</em> the value so it can use it.</p>
+
+<p>This means that we can set a constant, <code>result</code>, equal to <code>travel()</code> to get back the closure. Then call the closure freely and it will still have access to the <code>counter</code> variable.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-swift" data-lang="swift"><span style="color:#66d9ef">let</span> result = travel()
+result(<span style="color:#e6db74">&#34;London&#34;</span>) <span style="color:#75715e">// Prints &#34;1. I&#39;m going to London.&#34;</span></code></pre></div>
+<p>And if we call <code>result(&quot;London&quot;)</code> multiple times the <code>counter</code> will increment.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-swift" data-lang="swift">result(<span style="color:#e6db74">&#34;London&#34;</span>) <span style="color:#75715e">// Prints &#34;2. I&#39;m going to London.&#34;</span>
+result(<span style="color:#e6db74">&#34;London&#34;</span>) <span style="color:#75715e">// Prints &#34;3. I&#39;m going to London.&#34;</span>
+result(<span style="color:#e6db74">&#34;London&#34;</span>) <span style="color:#75715e">// Prints &#34;4. I&#39;m going to London.&#34;</span></code></pre></div>
+<h3 id="final-thoughts-for-the-day">Final Thoughts For the Day</h3>
+
+<p>I&rsquo;m definitely going to have to continue studying closures before they make complete sense, but thanks to the <a href="https://www.hackingwithswift.com">Hacking with Swift</a> simple approach to the subject I&rsquo;m feeling more confident in my knowledge of the subject.</p>
+
+<p>If you&rsquo;re also taking part in Hacking with Swift&rsquo;s 100 Days of Swift, I highly suggest checking out the official <a href="https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html">Swift Language Guide</a> and follow along. It is a great suppliment to the lessons on the website. It really helped me solidify some concepts today.</p>
+
+<p>You&rsquo;ll probably notice I&rsquo;m not following the exact path of the 100 Days of Swift challenge. That&rsquo;s because I feel comfortable in my abilities to not need to study up on simple data types, loops, etc. I have been working with Swift on-and-off since it&rsquo;s inception, and have been coding in some fasion since I was in middle school.</p>
+
+      </div>
+
+      <footer>
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "uvolabs" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+      </footer>
+    </article>
+
+    
+  </section>
+
+      </div>
+
+      <footer class="footer">
+  <section class="container">
+    
+     © 2019
+    
+       · 
+      Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/">Coder</a>.
+    
+    
+  </section>
+</footer>
+
+    </main>
+
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-135389430-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+
+  </body>
+
+</html>

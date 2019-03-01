@@ -6,10 +6,20 @@
     <description>Recent content in Swift on Uvolabs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 27 Feb 2019 21:43:00 -0600</lastBuildDate>
+    <lastBuildDate>Thu, 28 Feb 2019 17:16:16 -0600</lastBuildDate>
     
 	<atom:link href="https://uvolabs.me/tags/swift/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>100 Days of Swift: Day 2</title>
+      <link>https://uvolabs.me/posts/100-days/day-2/</link>
+      <pubDate>Thu, 28 Feb 2019 17:16:16 -0600</pubDate>
+      
+      <guid>https://uvolabs.me/posts/100-days/day-2/</guid>
+      <description>Day 2 of 100: Started beefing up my knowledge on closures. Have always found this subject to be fairly bloated and nonintuitive, but I&amp;rsquo;m sure with enough practice it&amp;rsquo;ll become second nature.
+Closures as Parameters Can&amp;rsquo;t say I&amp;rsquo;m too fond of the idea of using () -&amp;gt; Void in my code. It looks very&amp;hellip; nonSwifty. You&amp;rsquo;d think there would be a better syntax when your closure has no parameters or return values.</description>
+    </item>
     
     <item>
       <title>100 Days of Swift: Day 1</title>
