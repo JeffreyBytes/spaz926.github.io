@@ -6,10 +6,20 @@
     <description>Recent content in Swift on Uvolabs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 28 Feb 2019 17:16:16 -0600</lastBuildDate>
+    <lastBuildDate>Fri, 01 Mar 2019 21:33:57 -0600</lastBuildDate>
     
 	<atom:link href="https://uvolabs.me/categories/swift/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>100 Days of Swift: Day 3</title>
+      <link>https://uvolabs.me/posts/100-days/day-3/</link>
+      <pubDate>Fri, 01 Mar 2019 21:33:57 -0600</pubDate>
+      
+      <guid>https://uvolabs.me/posts/100-days/day-3/</guid>
+      <description>Day 3 started out with a quick review of structs and classes, their properties and methods, access control, and optionals. It quickly turned into studying and taking detailed notes about protocols and extensions.
+Review During my time learning Swift I took a deep intrest in the differences between classes and structs, so I fell deep into the rabbit hole early on in my journey to learn as much as I possibly could about them.</description>
+    </item>
     
     <item>
       <title>100 Days of Swift: Day 2</title>
