@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://uvolabs.me/posts/100-days/day-4-5/</loc>
+    <lastmod>2019-03-03T13:37:16-06:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://uvolabs.me/posts/100-days/day-3/</loc>
     <lastmod>2019-03-01T21:33:57-06:00</lastmod>
   </url>
@@ -19,25 +24,25 @@
   
   <url>
     <loc>https://uvolabs.me/series/100-days-of-swift/</loc>
-    <lastmod>2019-03-01T21:33:57-06:00</lastmod>
+    <lastmod>2019-03-03T13:37:16-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://uvolabs.me/</loc>
-    <lastmod>2019-03-01T21:33:57-06:00</lastmod>
+    <lastmod>2019-03-03T13:37:16-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://uvolabs.me/posts/</loc>
-    <lastmod>2019-03-01T21:33:57-06:00</lastmod>
+    <lastmod>2019-03-03T13:37:16-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://uvolabs.me/series/</loc>
-    <lastmod>2019-03-01T21:33:57-06:00</lastmod>
+    <lastmod>2019-03-03T13:37:16-06:00</lastmod>
     <priority>0</priority>
   </url>
   
