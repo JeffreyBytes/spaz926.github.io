@@ -24,6 +24,12 @@
   </url>
   
   <url>
+    <loc>https://uvolabs.me/</loc>
+    <lastmod>2019-03-01T21:33:57-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://uvolabs.me/posts/</loc>
     <lastmod>2019-03-01T21:33:57-06:00</lastmod>
     <priority>0</priority>
@@ -31,12 +37,6 @@
   
   <url>
     <loc>https://uvolabs.me/series/</loc>
-    <lastmod>2019-03-01T21:33:57-06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://uvolabs.me/</loc>
     <lastmod>2019-03-01T21:33:57-06:00</lastmod>
     <priority>0</priority>
   </url>
