@@ -6,10 +6,20 @@
     <description>Recent content in Posts on Jeffrey Carpenter</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 03 Mar 2019 13:37:16 -0600</lastBuildDate>
+    <lastBuildDate>Tue, 05 Mar 2019 20:05:25 -0600</lastBuildDate>
     
 	<atom:link href="https://uvolabs.me/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>100 Days of Swift: Days 6 &amp; 7</title>
+      <link>https://uvolabs.me/posts/100-days/day-6-7/</link>
+      <pubDate>Tue, 05 Mar 2019 20:05:25 -0600</pubDate>
+      
+      <guid>https://uvolabs.me/posts/100-days/day-6-7/</guid>
+      <description>Day 6 was Swift Review, Day Three covering the topics of properties, static properties, methods, access control, closures, polymorphism, and typecasting. Like days 4 and 5, just reviewing swift fundamentals.
+Day 7 marks the beginning of Project 1, a basic image viewing application. Fundamentally it shows a list of image names in a table view, and when the user taps on an image name it shows the image on a new screen.</description>
+    </item>
     
     <item>
       <title>100 Days of Swift: Days 4 &amp; 5</title>
