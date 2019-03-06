@@ -28,13 +28,13 @@
   </url>
   
   <url>
-    <loc>https://uvolabs.me/series/100-days-of-swift/</loc>
+    <loc>https://uvolabs.me/categories/100-days-of-swift/</loc>
     <lastmod>2019-03-05T20:05:25-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://uvolabs.me/categories/100-days-of-swift/</loc>
+    <loc>https://uvolabs.me/series/100-days-of-swift/</loc>
     <lastmod>2019-03-05T20:05:25-06:00</lastmod>
     <priority>0</priority>
   </url>
@@ -52,13 +52,13 @@
   </url>
   
   <url>
-    <loc>https://uvolabs.me/tags/education/</loc>
+    <loc>https://uvolabs.me/categories/education/</loc>
     <lastmod>2019-03-05T20:05:25-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://uvolabs.me/categories/education/</loc>
+    <loc>https://uvolabs.me/tags/education/</loc>
     <lastmod>2019-03-05T20:05:25-06:00</lastmod>
     <priority>0</priority>
   </url>
@@ -82,13 +82,13 @@
   </url>
   
   <url>
-    <loc>https://uvolabs.me/tags/swift/</loc>
+    <loc>https://uvolabs.me/categories/swift/</loc>
     <lastmod>2019-03-05T20:05:25-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://uvolabs.me/categories/swift/</loc>
+    <loc>https://uvolabs.me/tags/swift/</loc>
     <lastmod>2019-03-05T20:05:25-06:00</lastmod>
     <priority>0</priority>
   </url>
