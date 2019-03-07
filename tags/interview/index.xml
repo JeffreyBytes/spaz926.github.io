@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Interview on Jeffrey Carpenter</title>
+    <link>https://uvolabs.me/tags/interview/</link>
+    <description>Recent content in Interview on Jeffrey Carpenter</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 07 Mar 2019 15:05:45 -0600</lastBuildDate>
+    
+	<atom:link href="https://uvolabs.me/tags/interview/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>100 Days of Swift: Day 9</title>
+      <link>https://uvolabs.me/posts/100-days/day-9/</link>
+      <pubDate>Thu, 07 Mar 2019 15:05:45 -0600</pubDate>
+      
+      <guid>https://uvolabs.me/posts/100-days/day-9/</guid>
+      <description>Day 9 marks the very end of Project 1 with a review and a few challenges to complete. The review was 12 multiple choice questions of which I aced. The challenges are laid out below.
+ Use Interface Builder to select the text label inside the table view cell and adjust its font size to something larger. In the main table view, show the image names in sorted order. Rather than show the image name in the detail title bar, show &amp;ldquo;Picture X of Y&amp;rdquo;, where Y is the total number of images and X is the selected picture&amp;rsquo;s position in the array.</description>
+    </item>
+    
+  </channel>
+</rss>
