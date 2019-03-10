@@ -6,10 +6,21 @@
     <description>Recent content in Education on Jeffrey Carpenter</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 07 Mar 2019 15:05:45 -0600</lastBuildDate>
+    <lastBuildDate>Sat, 09 Mar 2019 18:09:30 -0600</lastBuildDate>
     
 	<atom:link href="https://uvolabs.me/categories/education/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>100 Days of Swift: Days 10 &amp; 11</title>
+      <link>https://uvolabs.me/posts/100-days/day-10-11/</link>
+      <pubDate>Sat, 09 Mar 2019 18:09:30 -0600</pubDate>
+      
+      <guid>https://uvolabs.me/posts/100-days/day-10-11/</guid>
+      <description>Days 10 &amp;amp; 11 have been two very straight forward days building Project 2, a flag guessing game. The app shows three random country flags on the screen and tracks the user&amp;rsquo;s score.
+It incorporates the use of Auto Layout, useful built-in methods of Int and Array, and introduces UIAlertController, @IBOutlet, and @IBAction.
+It&amp;rsquo;s a simple application, but allowed me to practice some importatnt aspects of developing for iOS. The UI is a bit lackluster, and I will be playing around with it to get the right feel before tomorrow&amp;rsquo;s challenges.</description>
+    </item>
     
     <item>
       <title>100 Days of Swift: Day 9</title>
